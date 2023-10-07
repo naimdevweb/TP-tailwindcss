@@ -4,17 +4,14 @@
 
 Nous utiliserons uniquement Tailwindcss pour réaliser ce TP.
 
-## LE challenge
+## Le challenge
 
-Your challenge is to build out this news website homepage and get it looking as close to the design as possible.
 Le but de ce challenge est de construire un site web d'informations, pour cela vous devez vous approcher le plus possible du design fourni !
-
 
 L'utilisateur doit pouvoir : 
 
 - Voir la disposition la plus optimale en fonction de sa taille d'écran (donc il faut travailler le responsive)
 - Voir les animations d'hover et les intéractions avec les élements du site.
-
 
 ## Où trouver ce dont vous avez besoin ?
 
