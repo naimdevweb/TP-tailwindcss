@@ -1,183 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/output.css">
-  
-  <title>DevFoxie | News homepage</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>DevFoxie | News homepage</title>
 
-<main class="px-4 lg:p-8">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
 
-<!--premiere section (header)-->
+  <body>
 
-  <section class="flex justify-between py-4">
+    <header class="flex py-4 justify-between">
+      <img src="./assets/images/logo.svg" alt="" width="65px" />
 
-    <img src="./assets/images/logo.svg" alt="" width="65px">
-    
-  <div class="lg:justify-between ">
+      <div class="flex gap-5 ">
+        <p>Home</p>
+        <p>New</p>
+        <p>Popular</p>
+        <p>Trending</p>
+        <p>Categories</p>
+      </div>
+      <svg hidden width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+        <g fill="#00001A" fill-rule="evenodd">
+          <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+          <path d="M0 0h40v3H0z" />
+        </g>
+      </svg>
+    </header>
 
-    <div class="lg:flex gap-5">
-    <p >Home</p>
-    <p>New</p>
-   <p>Popular</p>
-    <p>Trending</p>
-    <p>Categories</p>
-  </div>
-    <svg hidden width="40" height="17"  xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
- 
-  </div>
+    <main class="px-4 lg:p-20">
+      <!--premiere section (header)-->
 
-</section>
+      
 
-<!--Image centrale-->
-<section class="lg:flex gap-10 ">
+      <!--Image centrale-->
 
-<img src="./assets/images/image-web-3-desktop.jpg" alt="" width="60%">
+      <section class="lg:flex lg:gap-8">
+        <div class="lg:w-3/4">
+          <img class="lg:hidden"
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt=""
+            width="100%"
+          />
 
-  <img class="py-3 hidden" src="./assets/images/image-web-3-mobile.jpg" alt="">
-  
+          <img
+            class="py-3 hidden"
+            src="./assets/images/image-web-3-mobile.jpg"
+            alt=""
+          />
 
-  <div class="bg-neutral-very-dark-blue p-3 flex-col max-lg: max-w-80">
-  
-    <p class=" text-primary-orange text-2xl mb-4 font-bold">New </p> 
-   
-    <h2 class="text-white font-bold"> Hydrogen VS Electric Cars</h2>
-   
-    <p class="py-2 text-white font-thin">Will hydrogen-fueled cars ever catch up to EVs?</p> 
-     <hr class="my-4">
-   
-     <h2  class="text-white font-bold ">The Downsides of AI Artistry</h2>
-    <p class="py-2 text-white font-thin">What are the possible adverse effects of on-demand AI image generation?</p> 
-     <hr class="my-4">
-   
-     <h2  class="text-white font-bold ">Is VC Funding Drying Up?</h2>
-    <p class="py-2 text-white  font-thin">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p> 
-   
-   </div>
-   
-</section>
-   
-  
+          <!--TITRE DU MILLIEU-->
 
+          <div class=" py-5 gap-5 lg:flex lg:justify-between">
+            <h1 class="font-bold text-5xl lg:w-[45%]">The Bright Future of Web 3.0?</h1>
 
-  <!--TITRE DU MILLIEU-->
+            <!--Texte sous le titre-->
 
-<div class="lg:flex">
-  
+            <div class="lg:w-[45%]">
+              <p class="my-3 font-light mb-10">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
 
-  <h1 class="font-bold text-5xl py-2  max-lg: max-w-80 ">The Bright Future of Web 3.0?</h1>
+              <a
+                class="bg-primary-red text-white px-5 p-3 tracking-[.20em]"
+                href=""
+                >READ MORE</a
+              >
+            </div>
+          </div>
+        </div>
 
-  <!--Texte sous le titre-->
-<div class="lg:flex-col px-8">
-  
-  <p class="my-3 font-light mb-10  max-lg: max-w-80">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?</p>
+        <!--Deuxieme section-->
 
-  <a class="bg-primary-red text-white px-5 p-3 tracking-[.20em]" href="">READ MORE</a>
-</div>
+        <div class="bg-neutral-very-dark-blue p-3 lg:w-1/4">
+          <p class="text-primary-orange text-2xl mb-4 font-bold">New</p>
 
-</div>
+          <h2 class="text-white font-bold">Hydrogen VS Electric Cars</h2>
 
+          <p class="py-2 text-white font-thin">
+            Will hydrogen-fueled cars ever catch up<br />
+            to EVs?
+          </p>
+          <hr class="my-4" />
 
-  <!--Boutton-->
+          <h2 class="text-white font-bold">The Downsides of AI Artistry</h2>
+          <p class="py-2 text-white font-thin">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+          <hr class="my-4" />
 
-<div class="mb-10 py-4" >
- <a class="bg-primary-red text-white px-8 p-3 tracking-[.20em] hidden " href="">READ MORE</a>
-</div>
+          <h2 class="text-white font-bold">Is VC Funding Drying Up?</h2>
+          <p class="py-2 text-white font-thin">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </section>
 
+      <!--Troisieme section-->
 
-<!--Deuxieme section-->
+      <section class="flex py-5 gap-[10%] max-md:flex-col lg:flex-auto">
+        <!--1ER ARTICLE-->
 
-<section class="bg-neutral-very-dark-blue p-3 flex-col max-lg: max-w-80 hidden">
+        <article class="flex items-center gap-5 mb-4">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="" width="100px" />
+          <div class="flex-col">
+            <p class="text-neutral-grayish-blue text-3xl mb-2 font-bold">01</p>
 
- <p class=" text-primary-orange text-2xl mb-4 font-bold">New </p> 
+            <h3 class="text-black-800 font-bold mb-1">Reviving Retro PCs</h3>
 
- <h2 class="text-white font-bold"> Hydrogen VS Electric Cars</h2>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
 
- <p class="py-2 text-white font-thin">Will hydrogen-fueled cars ever catch up<br> to EVs?</p> 
-  <hr class="my-4">
+        <!--2EME ARTICLE-->
 
-  <h2  class="text-white font-bold ">The Downsides of AI Artistry</h2>
- <p class="py-2 text-white font-thin">What are the possible adverse effects of on-demand AI image generation?</p> 
-  <hr class="my-4">
+        <article class="flex items-center gap-5 mb-4">
+          <img
+            src="./assets/images/image-top-laptops.jpg"
+            alt=""
+            width="100px"
+          />
+          <div class="flex-col">
+            <p class="text-neutral-grayish-blue text-3xl mb-2 font-bold">02</p>
 
-  <h2  class="text-white font-bold ">Is VC Funding Drying Up?</h2>
- <p class="py-2 text-white  font-thin">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p> 
+            <h3 class="text-black-800 font-bold mb-1">
+              Top 10 Laptops of 2022
+            </h3>
 
-</section>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
 
-</section>
+        <!--3EME ARTICLE-->
 
-<!--Troisieme section-->
+        <article class="flex items-center gap-5">
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            alt=""
+            width="100px"
+          />
 
-<section class="flex max-md:flex-col gap-[10%] lg:flex-auto py-5">
+          <div class="flex-col">
+            <p class="text-neutral-grayish-blue text-3xl mb-2 font-bold">03</p>
 
-<!--1ER ARTICLE-->
+            <h3 class="text-black-800 font-bold mb-1">The Growth of Gaming</h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+      </section>
 
-  <article class="flex items-center gap-5 mb-4">
-    <img src="./assets/images/image-retro-pcs.jpg" alt="" width="100px">
-<div class="flex-col">
-   
- <p class="text-neutral-grayish-blue text-3xl mb-2 font-bold">01</p>
-
-  <h3 class="text-black-800 font-bold mb-1">Reviving Retro PCs</h3>
-
-  <p>What happens when old PCs are given modern upgrades?</p>
-</div>
-  </article>
-
-<!--2EME ARTICLE-->
-
-  <article class="flex items-center gap-5 mb-4">
-    <img src="./assets/images/image-top-laptops.jpg" alt="" width="100px">
-<div class="flex-col">
-   
- <p class="text-neutral-grayish-blue text-3xl mb-2 font-bold">02</p> 
-
-  <h3 class="text-black-800 font-bold mb-1">Top 10 Laptops of 2022</h3>
-
-  <p>What happens when old PCs are given modern upgrades?</p>
-</div>
-
-  </article>
-
-<!--3EME ARTICLE-->
-
-  <article class="flex items-center gap-5">
-
-    <img src="./assets/images/image-gaming-growth.jpg" alt="" width="100px">
-
-<div class="flex-col">
-   
- <p class="text-neutral-grayish-blue text-3xl mb-2 font-bold">03</p> 
-
-  <h3 class="text-black-800 font-bold mb-1 ">The Growth of Gaming</h3>
-  <p>What happens when old PCs are given modern upgrades?</p>
-</div>
-
-  </article>
-
-</section>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.dev-foxie.com" target="_blank">DevFoxie</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-
-</main>
-</body>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.dev-foxie.com" target="_blank">DevFoxie</a>. Coded
+        by <a href="#">Your Name Here</a>.
+      </div>
+    </main>
+  </body>
 </html>
-
-
-
